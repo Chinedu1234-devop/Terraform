@@ -3,7 +3,7 @@ resource "aws_instance" "main1" {
   instance_type = var.instance_type
 vpc_security_group_ids = ["default"]
   tags = {
-    Name = "main1"
+    Name = "chinedu"
   }
   
 }
